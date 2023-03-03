@@ -1,38 +1,56 @@
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;  
-    background-image: url(../img/wp2328251-playstation-2-wallpapers.jpg);
-    background-repeat: no-repeat scroll;
-    background-position: 50% -18%;
-    background-size: contain;
+tittle {
+    color: white;
 }
 
-header {
+#title, .sub, .texto, .post {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: black;
+    background-image: url("../img/wp2328251-playstation-2-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 900px;
+}
+
+#title {
+    background: white;
+    margin-left: 385px;
+    width: 40%;
+    border: 3px solid blue;
+    border-radius: 50px;
+    font-size: 40px;
+    font-style: inherit;
     text-align: center;
-    color: rgb(255, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 80px;
 }
 
-h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: red;
+.sub {
+    font-size: 16px;
+    font-style: inherit;
+    margin-left: 10px;
 }
 
-h4 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 0px;
-    margin-top: 20px;
-    color: rgb(0, 102, 255);
-}
-
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 20px;
-    margin-left: 5px;
+.texto {
+    font-size: 15px;
+    font-style: inherit;
     margin-right: 100px;
+    margin-left: 20px;
     margin-bottom: 40px;
-    color: red
+}
+
+.post {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 0px;
 }
 
 img {
-    width: 200px;
+    width: 200px
 }
+
+
